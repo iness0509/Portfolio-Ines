@@ -1,0 +1,302 @@
+/******* GENERAL *******/
+/* spacing on all sections */
+#about {
+  padding-top: 6rem;
+  background-color: #f6efd5;
+}
+
+#skills,
+#portfolio,
+#contact {
+  padding-top: 8rem;
+  background-color: #f6efd5;
+}
+#about h2,
+#skills h2,
+#portfolio h2,
+#contact h2 {
+  margin-bottom: 3rem;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+
+.fixed-top {
+    background-color: #b4c478; 
+}
+
+.logo {
+  border-radius: 50%;
+  width: 50px;
+  height: auto;
+}
+
+/* Navbar fond vert clair : texte noir */
+.navbarScroll .navbar-brand,
+.navbarScroll .nav-link {
+  color: black !important;
+}
+
+/* Navbar fond kaki au scroll : texte blanc */
+.navbarScroll.navbarDark .navbar-brand,
+.navbarScroll.navbarDark .nav-link {
+  color: white !important;
+}
+
+/* display background dark color on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: #6a7349;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.navbarScroll .navbar-toggler {
+  position: relative;
+  z-index: 10001;
+}
+
+.navbar-collapse.collapsing {
+  transition: none !important;
+}
+
+/* hero background image */
+.bgimage {
+  background: url(images/Img.webp);
+  min-height: 100vh;
+  background-size: cover;
+}
+/* text css above hero image*/
+.hero_title {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  letter-spacing: 0.05em;
+  
+}
+.hero_desc {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+/* about */
+.imageAboutPage {
+  width: 85%;
+}
+.imageAboutPage {
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  box-shadow: 1px 1px 12px #555;
+}
+
+#portfolio .card {
+  border: none;
+}
+
+.card-img-top {
+  height: 164px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text{
+    min-height: 120px;
+}
+
+/* skills */
+#skills-banner {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 1px 1px 12px #555;
+  background-color: white;
+  height: 360px;
+}
+
+.skills-banner-img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.skills-caption {
+  padding: 30px 20px;
+  text-align: center;
+  
+}
+.skills-title {
+  margin-bottom: 15px;
+}
+
+.skills-text {
+    min-height: 50px;
+}
+
+#skills-banner .arrow {
+  position: absolute;
+  top: 33%;
+  transform: translateY(-50%);
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#skills-banner .arrow_left {
+  left: 20px;
+}
+
+#skills-banner .arrow_right {
+  right: 20px;
+}
+
+#skills-banner .arrow i {
+  color: #6a7349;
+  font-size: 40px;
+}
+
+#skills-banner .dots {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#skills-banner .dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #cfcfcf;
+  cursor: pointer;
+  border: none;
+}
+
+#skills-banner .dot_selected {
+  background-color: #6a7349;
+}
+
+/* portfolio */
+#portfolio p {
+  text-align: center;
+}
+
+#portfolio .btn.btn-success,
+#contact .btn.btn-success {
+  color: #fff;
+  background-color: #6a7349;
+  border-color: #6a7349;
+}
+
+#portfolio .filter-btn {
+  color: #6a7349;
+  font-weight: 600;
+  border: 1px solid #6a7349;
+  background-color: white;
+  transition: 0.3s ease;
+}
+
+#portfolio .filter-btn:hover,
+#portfolio .filter-btn.active,
+#portfolio .filter-btn:focus {
+  color: #fff;
+  background-color: #6a7349;
+  border-color: #6a7349;
+  box-shadow: none;
+}
+
+/* contact */
+.contactColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactColumn i {
+  color: #6a7349;
+}
+
+
+
+@media (max-width: 991.98px) {
+  .navbarScroll .navbar-collapse {
+    min-height: calc(100vh - 147px);
+    background-color: #b4c478;
+  }
+
+  .navbarScroll.navbarDark .navbar-collapse {
+    background-color: #6a7349;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 3rem;
+  }
+
+  .navbarScroll .nav-link {
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+  }
+  .navbar-collapse {
+    transition: all 0.2s ease;
+  }
+
+  .navbar-collapse.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .navbar-collapse:not(.show) {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+
+  .imageAboutPage {
+  margin: 0 auto 3rem auto;
+  display: block;
+}
+
+
+}
+
+@media (max-width: 768.98px) {
+.skills-text {
+    min-height: 60px;
+}
+}
+
+@media (max-width: 425.98px) {
+.hero_title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  letter-spacing: 0.05em;
+  
+}
+.hero_desc {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+}
+#skills-banner {
+        height: 450px;
+}
+.skills-text {
+    min-height: 120px;
+}
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "image": "Booki.webp",
+    "title": "Booki",
+    "text": "Développement d'une page d'accueil responsive en HTML et CSS pour une agence de voyage (desktop, tablette et mobile).",
+    "category": "Développement",
+    "link": "https://github.com/iness0509/Booki"
+  },
+  {
+    "image": "724events.webp",
+    "title": "724 Events",
+    "text": "Réalisation d'une campagne de tests fonctionnels et exploratoires sur un site web, avec gestion des anomalies dans JIRA et rédaction d'un rapport de bilan en environnement Docker.",
+    "category": "Test",
+    "link": "https://github.com/iness0509/724-Events"
+  },
+  {
+    "image": "Print-it.webp",
+    "title": "Print it",
+    "text": "Développement d'un carrousel interactif en JavaScript pour dynamiser un site web statique, avec intégration au code HTML/CSS existant et gestion du projet avec GitHub.",
+    "category": "Développement",
+    "link": "https://github.com/iness0509/Print-it"
+  },
+  {
+    "image": "Sophie-Bluel.webp",
+    "title": "Sophie Bluel",
+    "text": "Développement d'une application web dynamique en JavaScript, avec manipulation du DOM, communication avec une API REST, authentification et gestion de médias via une interface d'administration",
+    "category": "Développement",
+    "link": "https://github.com/iness0509/sophie-bluel"
+  },
+  {
+    "image": "Kasa.webp",
+    "title": "Kasa",
+    "text": "Développement du front-end d'une application de location de logements avec React, création de composants réutilisables et mise en place de la navigation avec React Router.",
+    "category": "Développement",
+    "link": "https://github.com/iness0509/Kasa_React"
+  },
+  {
+    "image": "Menu-Maker.webp",
+    "title": "Menu Maker By Qwenta",
+    "text": "Planification d’un projet de développement web incluant l’analyse des besoins, la rédaction des spécifications techniques, la veille technologique et la gestion du projet en méthode Kanban.",
+    "category": "Gestion de projet",
+    "link": "https://github.com/iness0509/Menu-Maker"
+  },
+  {
+    "image": "Eco_Bliss_Bath.webp",
+    "title": "Eco Bliss Bath",
+    "text": "Développement de scripts de tests automatisés en JavaScript avec Cypress, exécution de campagnes de tests et rédaction d’un rapport d’analyse des anomalies.",
+    "category": "Test",
+    "link": "https://github.com/iness0509/Projet-Eco-Bliss-Bath"
+  },
+  {
+    "image": "Tomsen.webp",
+    "title": "Tomsen",
+    "text": "Définition d’une stratégie de test pour une application avant mise en production, incluant l’analyse des spécifications fonctionnelles, la planification des tests en méthode agile et la rédaction d’un cahier de recette.",
+    "category": "Gestion de projet",
+    "link": "https://github.com/iness0509/Tomsen"
+  }
+]
