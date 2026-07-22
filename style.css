@@ -63,7 +63,7 @@
 
 /* hero background image */
 .bgimage {
-  background: url(./images/Img.webp);
+  background: url(./images/img.webp);
   min-height: 100vh;
   background-size: cover;
 }
