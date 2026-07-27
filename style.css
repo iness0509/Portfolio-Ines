@@ -1,4 +1,5 @@
 /******* GENERAL *******/
+
 /* spacing on all sections */
 #about {
   padding-top: 6rem;
@@ -21,6 +22,7 @@
   padding-bottom: 4rem;
 }
 
+/* navbar */
 .fixed-top {
     background-color: #b4c478; 
 }
@@ -31,19 +33,17 @@
   height: auto;
 }
 
-/* Navbar fond vert clair : texte noir */
 .navbarScroll .navbar-brand,
 .navbarScroll .nav-link {
   color: black !important;
 }
 
-/* Navbar fond kaki au scroll : texte blanc */
+
 .navbarScroll.navbarDark .navbar-brand,
 .navbarScroll.navbarDark .nav-link {
   color: white !important;
 }
 
-/* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
   background-color: #6a7349;
 }
@@ -67,7 +67,7 @@
   min-height: 100vh;
   background-size: cover;
 }
-/* text css above hero image*/
+
 .hero_title {
   font-family: 'Playfair Display', serif;
   font-size: 5rem;
@@ -272,8 +272,6 @@
   margin: 0 auto 3rem auto;
   display: block;
 }
-
-
 }
 
 @media (max-width: 768.98px) {
